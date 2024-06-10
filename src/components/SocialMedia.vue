@@ -1,6 +1,6 @@
 <template>
   <div class="bef-footer z-40 mt-10 flex w-full flex-col items-center justify-center text-center">
-    <div class="relative max-w-[500px] px-4">
+    <div class="relative mx-2 max-w-[500px]">
       <img class="mb-8" src="../assets/images/rule-a.webp" alt="rule" />
       <div class="relative z-10 flex items-center justify-between">
         <a href="https://www.facebook.com/" class="social-icon" aria-label="Facebook">
@@ -25,7 +25,7 @@
       <img class="mt-8" src="../assets/images/rule-a.webp" alt="rule" />
 
       <img
-        class="absolute top-[50%] h-[calc(100%-3rem)] translate-y-[-50%] object-cover object-left opacity-20"
+        class="absolute top-[50%] h-[calc(100%-3rem)] translate-y-[-50%] object-cover opacity-30"
         src="../assets/images/social-widget-bg.webp"
         alt="social-widgt-bg"
       />
