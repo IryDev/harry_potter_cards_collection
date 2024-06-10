@@ -3,7 +3,7 @@
     role="navigation"
     aria-label="Mobile Navigation"
     :class="showMobileMenu ? 'opacity-1 scale-100' : 'pointer-events-none scale-125 opacity-0'"
-    class="sidenav fixed top-0 z-[102] h-full w-full bg-mobile-menu-bg bg-cover transition-all duration-300"
+    class="sidenav fixed top-0 z-[102] h-full w-full overflow-y-scroll bg-mobile-menu-bg bg-cover transition-all duration-300"
   >
     <button
       name="display-mobile-menu"
@@ -16,7 +16,7 @@
     <a href="./index.html" class="absolute left-[50%] top-4 translate-x-[-50%]">
       <img width="270" class="w-[270px]" src="../assets/images/logo.webp" alt="" />
     </a>
-    <div class="links flex flex-col items-end gap-3 px-8 pt-40 text-xl text-white">
+    <div class="links flex flex-col items-end gap-3 px-8 pt-32 text-xl text-white">
       <a href="/" name="Home">Home</a>
       <a href="#howtoplay" name="Profile">Profile</a>
       <a href="#cards" name="Cards" class="text-[#b69451]">Discover the Cards</a>
@@ -44,7 +44,7 @@
         report a bug
       </a>
 
-      <a href="#" class="my-8 font-bold text-white hover:[text-shadow:0_0_30px_#fff]">Sign In</a>
+      <a href="#" class="mt-8 font-bold text-white hover:[text-shadow:0_0_30px_#fff]">Sign In</a>
     </div>
   </div>
   <div class="navs absolute top-0 flex h-16 w-full items-center justify-between">
