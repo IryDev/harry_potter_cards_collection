@@ -23,8 +23,8 @@
 
       <div class="flex w-80 flex-col">
         <img class="dark block w-80" src="../assets/images/dark.webp" alt="" />
-        <h3 class="side-title my-3 text-2xl text-[#fff4e2]">The Dark Side</h3>
-        <p class="side-desc max-w-full text-[#fff4e2]">
+        <h3 class="side-title-2 my-3 text-2xl text-[#fff4e2]">The Dark Side</h3>
+        <p class="side-desc-2 max-w-full text-[#fff4e2]">
           Collect cards from the side of light and rediscover the magic of the Harry saga Potter.
           Choose your side of good. Meet your favorite Death Eaters Bellatrix Lestrange, Lucius
           Malfoy and many others.
@@ -80,6 +80,13 @@ onMounted(() => {
   })
 
   animateWithGsap('.side-title, .side-desc', {
+    duration: 1,
+    delay: 1,
+    opacity: 0,
+    y: 100
+  })
+
+  animateWithGsap('.side-title-2, .side-desc-2', {
     duration: 1,
     delay: 1,
     opacity: 0,

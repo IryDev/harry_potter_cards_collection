@@ -6,16 +6,21 @@
     class="sidenav fixed top-0 z-[102] h-full w-full overflow-y-scroll bg-mobile-menu-bg bg-cover transition-all duration-300"
   >
     <button
-      name="display-mobile-menu"
+      aria-label="Close Mobile Menu"
       v-on:click="toggleNav()"
       class="close absolute right-8 top-8 size-8 cursor-pointer"
     >
       <div class="line absolute h-0.5 w-full rotate-45 rounded-md bg-[#b69451]"></div>
       <div class="line absolute h-0.5 w-full -rotate-45 rounded-md bg-[#b69451]"></div>
     </button>
-    <a href="./index.html" class="absolute left-[50%] top-4 translate-x-[-50%]">
-      <img width="270" class="w-[270px]" src="../assets/images/logo.webp" alt="" />
-    </a>
+
+    <img
+      width="230"
+      class="absolute left-[50%] top-4 w-[230px] translate-x-[-50%]"
+      src="../assets/images/logo.webp"
+      alt=""
+    />
+
     <div class="links flex flex-col items-end gap-3 px-8 pt-32 text-xl text-white">
       <a href="/" name="Home">Home</a>
       <a href="#howtoplay" name="Profile">Profile</a>
@@ -26,6 +31,7 @@
       <a href="#social">Social</a>
       <a
         href=""
+        aria-label="Create an account"
         class="signup rounded-2xl bg-gold-btn-bg bg-cover px-4 py-1 duration-300 hover:shadow-[0_0_34px_#ffd075]"
         >Create an account</a
       >
@@ -38,13 +44,19 @@
       </div>
       <a
         href="#"
+        aria-label="Report a bug"
         class="mt-8 flex items-center gap-2 fill-current text-xs uppercase text-[#b69541]"
       >
         <img class="text-[#b69541]" width="20" height="20" src="../assets/icons/bug.svg" alt="" />
         report a bug
       </a>
 
-      <a href="#" class="mt-8 font-bold text-white hover:[text-shadow:0_0_30px_#fff]">Sign In</a>
+      <a
+        href="#"
+        aria-label="Login to your account"
+        class="mt-8 font-bold text-white hover:[text-shadow:0_0_30px_#fff]"
+        >Sign In</a
+      >
     </div>
   </div>
   <div class="navs absolute top-0 flex h-16 w-full items-center justify-between">
@@ -55,10 +67,12 @@
       <div class="flex items-center gap-2">
         <a
           href="#"
+          aria-label="Create an account"
+          rel="noopener noreferrer"
           class="login rounded-3xl bg-gold-btn-bg bg-cover px-4 py-0.5 text-white duration-300 hover:shadow-[0_0_34px_#ffd075]"
           >Create an account</a
         >
-        <button v-on:click="toggleNav()" class="burger h-12 w-8">
+        <button aria-label="Open Mobile Menu" v-on:click="toggleNav()" class="burger h-12 w-8">
           <div class="line my-1 h-0.5 w-full rounded-sm bg-[#b69451]"></div>
           <div class="line my-1 h-0.5 w-full rounded-sm bg-[#b69451]"></div>
           <div class="line my-1 h-0.5 w-full rounded-sm bg-[#b69451]"></div>

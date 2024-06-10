@@ -3,7 +3,6 @@
     <div class="frame relative -top-16 z-50 flex items-center justify-center">
       <button
         v-on:click="toggleTrailer()"
-        name="play-video"
         aria-label="Play video"
         type="button"
         class="group absolute z-40 flex size-52 cursor-pointer items-center justify-center"
@@ -53,7 +52,7 @@
         class="container-video absolute left-1/2 top-1/2 flex h-[300px] w-[90%] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-xl bg-black shadow-[0_0_70px_5px_#d0922b80] lg:h-[90%]"
       >
         <button
-          name="display-video-trailer"
+          aria-label="Close video trailer"
           v-on:click="toggleTrailer()"
           class="close absolute right-4 top-4 size-8 cursor-pointer"
         >
