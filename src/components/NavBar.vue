@@ -2,12 +2,15 @@
   <div
     role="navigation"
     aria-label="Mobile Navigation"
-    :class="showMobileMenu ? 'opacity-1 scale-100' : 'pointer-events-none scale-125 opacity-0'"
+    :class="{
+      'pointer-events-none scale-125 opacity-0': !showMobileMenu,
+      'opacity-1 scale-100': showMobileMenu
+    }"
     class="sidenav fixed top-0 z-[102] h-full w-full overflow-y-scroll bg-mobile-menu-bg bg-cover transition-all duration-300"
   >
     <button
       aria-label="Close Mobile Menu"
-      v-on:click="toggleNav()"
+      @click="toggleNav"
       class="close absolute right-8 top-8 size-8 cursor-pointer"
     >
       <div class="line absolute h-0.5 w-full rotate-45 rounded-md bg-[#b69451]"></div>
@@ -54,7 +57,7 @@
       <a
         href="#"
         aria-label="Login to your account"
-        class="mt-8 font-bold text-white hover:[text-shadow:0_0_30px_#fff]"
+        class="my-6 font-bold text-white hover:[text-shadow:0_0_30px_#fff]"
         >Sign In</a
       >
     </div>
@@ -72,7 +75,7 @@
           class="login rounded-3xl bg-gold-btn-bg bg-cover px-4 py-0.5 text-white duration-300 hover:shadow-[0_0_34px_#ffd075]"
           >Create an account</a
         >
-        <button aria-label="Open Mobile Menu" v-on:click="toggleNav()" class="burger h-12 w-8">
+        <button aria-label="Open Mobile Menu" @click="toggleNav" class="burger h-12 w-8">
           <div class="line my-1 h-0.5 w-full rounded-sm bg-[#b69451]"></div>
           <div class="line my-1 h-0.5 w-full rounded-sm bg-[#b69451]"></div>
           <div class="line my-1 h-0.5 w-full rounded-sm bg-[#b69451]"></div>
@@ -157,21 +160,17 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      showMobileMenu: false
-    }
-  },
-  methods: {
-    toggleNav() {
-      this.showMobileMenu = !this.showMobileMenu
-      document.body.style.overflow = this.showMobileMenu ? 'hidden' : 'auto'
-    }
-  }
+<script setup>
+import { ref } from 'vue'
+
+const showMobileMenu = ref(false)
+
+const toggleNav = () => {
+  showMobileMenu.value = !showMobileMenu.value
+  document.body.style.overflow = showMobileMenu.value ? 'hidden' : 'auto'
 }
 </script>
+
 <style scoped>
 .animation-light-pulse,
 .animation-light-pulse-2 {
