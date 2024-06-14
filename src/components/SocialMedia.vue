@@ -24,7 +24,7 @@
         <a
           href="https://twitter.com/harrypotter"
           title="Harry Potter Twitter X"
-          class="social-icon duration-300 hover:scale-110"
+          class="social-icon"
           aria-label="Harry Potter Twitter"
         >
           <img src="../assets/icons/icons8-twitterx.svg" alt="Twitter" />
@@ -32,7 +32,7 @@
 
         <a
           href="https://www.youtube.com/@harrypotter"
-          class="social-icon duration-300 hover:scale-110"
+          class="social-icon"
           aria-label="Harry Potter Youtube"
         >
           <img src="../assets/icons/youtube.svg" alt="YouTube" />
@@ -41,7 +41,7 @@
         <a
           href="https://discord.com/invite/HogwartsLegacy"
           title="Harry Potter Hogwarts Legacy Discord"
-          class="social-icon duration-300 hover:scale-110"
+          class="social-icon"
           aria-label="Hogwarts Legacy Discord"
         >
           <img src="../assets/icons/discord.svg" alt="discord" />
@@ -49,7 +49,7 @@
         <a
           href="https://www.tiktok.com/@harrypotter"
           title="Harry Potter TikTok"
-          class="social-icon duration-300 hover:scale-110"
+          class="social-icon"
           aria-label="Harry Potter TikTok"
         >
           <img src="../assets/icons/tiktok.svg" alt="tiktok" />
