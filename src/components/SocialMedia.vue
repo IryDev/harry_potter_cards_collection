@@ -3,27 +3,59 @@
     <div class="relative mx-2 max-w-[500px]">
       <img class="mb-8" src="../assets/images/rule-a.webp" alt="rule" />
       <div class="relative z-10 flex items-center justify-between">
-        <a href="https://www.facebook.com/" class="social-icon" aria-label="Facebook">
+        <a
+          href="https://www.facebook.com/harrypotter"
+          title="Harry Potter Facebook"
+          class="social-icon duration-300 hover:scale-110"
+          aria-label="Facebook"
+        >
           <img src="../assets/icons/icons8-facebook.svg" alt="Facebook" />
         </a>
-        <a href="https://www.instagram.com/" class="social-icon" aria-label="Instagram">
+
+        <a
+          href="https://www.instagram.com/harrypotter"
+          title="Harry Potter Instagram"
+          class="social-icon duration-300 hover:scale-110"
+          aria-label="Instagram"
+        >
           <img src="../assets/icons/instagram.svg" alt="" />
         </a>
-        <a href="https://www.twitter.com/" class="social-icon" aria-label="Twitter">
+
+        <a
+          href="https://twitter.com/harrypotter"
+          title="Harry Potter Twitter X"
+          class="social-icon duration-300 hover:scale-110"
+          aria-label="Harry Potter Twitter"
+        >
           <img src="../assets/icons/icons8-twitterx.svg" alt="Twitter" />
         </a>
-        <a href="https://www.youtube.com/" class="social-icon" aria-label="Youtube">
+
+        <a
+          href="https://www.youtube.com/@harrypotter"
+          class="social-icon duration-300 hover:scale-110"
+          aria-label="Harry Potter Youtube"
+        >
           <img src="../assets/icons/youtube.svg" alt="YouTube" />
         </a>
-        <a href="https://www.discord.com/" class="social-icon" aria-label="Discord">
+
+        <a
+          href="https://discord.com/invite/HogwartsLegacy"
+          title="Harry Potter Hogwarts Legacy Discord"
+          class="social-icon duration-300 hover:scale-110"
+          aria-label="Hogwarts Legacy Discord"
+        >
           <img src="../assets/icons/discord.svg" alt="discord" />
         </a>
-        <a href="https://www.tiktok.com/" class="social-icon" aria-label="TikTok">
+        <a
+          href="https://www.tiktok.com/@harrypotter"
+          title="Harry Potter TikTok"
+          class="social-icon duration-300 hover:scale-110"
+          aria-label="Harry Potter TikTok"
+        >
           <img src="../assets/icons/tiktok.svg" alt="tiktok" />
         </a>
       </div>
       <img class="mt-8" src="../assets/images/rule-a.webp" alt="rule" />
-
       <img
         class="absolute top-[50%] h-[calc(100%-3rem)] translate-y-[-50%] object-cover opacity-30"
         src="../assets/images/social-widget-bg.webp"

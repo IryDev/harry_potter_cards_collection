@@ -8,7 +8,8 @@ export default {
         'bg-nav-mobile': "url('../assets/images/mobile-nav-bg.webp')",
         'gold-btn-bg': "url('../assets/images/gold-btn-bg.webp')",
         'mobile-menu-bg': "url('../assets/images/mobile-menu-bg.webp')",
-        'bg-secondary': "url('../assets/images/bg-bottom.webp')"
+        'bg-secondary': "url('../assets/images/bg-bottom.webp')",
+        'bg-auth': "url('../assets/images/bg-auth.webp')"
       },
       fontFamily: {
         BluuNext: ['BluuNext', 'sans-serif']

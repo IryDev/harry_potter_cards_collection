@@ -25,11 +25,11 @@
     />
 
     <div class="links flex flex-col items-end gap-3 px-8 pt-32 text-xl text-white">
-      <a href="/" name="Home">Home</a>
-      <a href="#howtoplay" name="Profile">Profile</a>
-      <a href="#cards" name="Cards" class="text-[#b69451]">Discover the Cards</a>
-      <a href="#community" name="Community">Community</a>
-      <a href="#trailer" name="Trailer">Trailer</a>
+      <RouterLink to="/" aria-label="Home">Home</RouterLink>
+      <a href="#howtoplay" ariab-label="Profile">Profile</a>
+      <a href="#cards" aria-label="Cards" class="text-[#b69451]">Discover the Cards</a>
+      <a href="#community" aria-label="Community">Community</a>
+      <a href="#trailer" aria-label="Trailer">Trailer</a>
       <a href="#">How to play</a>
       <a href="#social">Social</a>
       <a
@@ -54,12 +54,13 @@
         report a bug
       </a>
 
-      <a
+      <RouterLink
         href="#"
+        to="/auth"
         aria-label="Login to your account"
         class="my-6 font-bold text-white hover:[text-shadow:0_0_30px_#fff]"
-        >Sign In</a
-      >
+        >Sign In
+      </RouterLink>
     </div>
   </div>
   <div class="navs absolute top-0 flex h-16 w-full items-center justify-between">
@@ -85,14 +86,14 @@
     <nav
       class="nav-left hidden h-16 items-center justify-between gap-4 bg-[linear-gradient(_90deg,_rgba(23,_47,_73,_0.5),_rgba(23,_47,_73,_0.5)_58%,_rgba(23,_47,_73,_0)_)] px-8 md:flex"
     >
-      <a
-        href="./index.html"
+      <RouterLink
+        to="/"
         class="group flex items-center gap-2 text-white transition duration-300 hover:text-[#ffd075]"
         title="Home"
       >
         <img width="30" src="../assets/icons/nav-deco.svg" alt="" />
         <span>Home</span><img width="5" src="../assets/icons/angle.svg" alt=""
-      /></a>
+      /></RouterLink>
       <a href="#cards" title="Cards" class="flex items-center gap-2 text-white hover:text-[#ffd075]"
         ><img width="30" src="../assets/icons/nav-deco2.svg" alt="" />
         <span>Cards</span>
@@ -110,12 +111,14 @@
         <span>Profile</span>
         <img width="5" src="../assets/icons/angle.svg" alt=""
       /></a>
-      <a
-        href="./auth.html"
+      <RouterLink
+        to="/auth"
         class="flex items-center gap-2 stroke-[#b69451] font-bold text-[#ffd075] [text-shadow:0_0_34px_#ffd075,_0_0_14px_#ffd075]"
-        ><img width="30" src="../assets/icons/nav-deco5.svg" alt="" />Enroll Now
-        <img width="5" src="../assets/icons/angle.svg" alt=""
-      /></a>
+      >
+        <img width="30" src="../assets/icons/nav-deco5.svg" alt="" />
+        Enroll Now
+        <img width="5" src="../assets/icons/angle.svg" alt="" />
+      </RouterLink>
     </nav>
     <img
       class="animation-light-pulse pointer-events-none absolute right-0 top-0 hidden h-16 origin-top mix-blend-screen md:block"
@@ -162,6 +165,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { RouterLink } from 'vue-router'
 
 const showMobileMenu = ref(false)
 

@@ -1,6 +1,7 @@
 <script setup>
 import { animateWithGsap } from '@/utils/animation'
 import { onMounted } from 'vue'
+import { RouterLink } from 'vue-router';
 
 onMounted(() => {
   animateWithGsap('.logo', {
@@ -28,19 +29,19 @@ onMounted(() => {
         alt="Harry Potter Hogwarts Cards Collection Logo"
       />
 
-      <a
-        href="/auth"
+      <RouterLink
+        to="/auth"
         class="group relative -top-20 flex max-w-[calc(100%-20px)] flex-col items-center rounded-md border-2 border-[#b69451] bg-play-now bg-cover px-12 py-4 text-[#f1ce89] transition duration-300 hover:text-white md:max-w-96"
       >
         <h2 class="text-center uppercase text-[#b69451] duration-300 group-hover:text-white">
-          Play, Collect, Exchange, now !
+          Play, Collect, Trade, now !
         </h2>
         <img src="../assets/images/rule-a.webp" alt="" />
         <h1 class="text-center text-3xl uppercase leading-7">become the best collector</h1>
         <p class="uppercase text-[#b69451] duration-300 group-hover:text-white">
           Let's get started
         </p>
-      </a>
+      </RouterLink>
     </section>
   </main>
 </template>
