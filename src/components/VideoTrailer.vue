@@ -41,7 +41,7 @@
       Refound the magic of the Harry Potter saga with the Harry Potter Cards Collection. Collect
       cards from your favorite characters, creatures, spells and more. Choose who you want to be, a
       Gryffindor, a Slytherin, a Hufflepuff or a Ravenclaw. Enroll now and start collecting cards
-      from the Harry Potter saga. Enroll now and start collecting cards from the Harry Potter saga.
+      from the Harry Potter saga.
     </p>
     <div
       class="popup-video fixed left-0 top-0 z-[10000] h-full w-full bg-black/80 duration-300"

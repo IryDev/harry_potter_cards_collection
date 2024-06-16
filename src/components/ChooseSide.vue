@@ -15,9 +15,9 @@
         <img class="light block w-80" src="../assets/images/light.webp" alt="" />
         <h3 class="side-title my-3 text-2xl text-[#fff4e2]">The Light Side</h3>
         <p class="side-desc max-w-full text-[#fff4e2]">
-          Collect dark side cards and rediscover the magic of the Harry Potter saga. Choose your
-          side of good. Meet your favorite heroes Hermione Granger, Albus Dumbledore and many
-          others.
+          Collect cards from the light side and rediscover the magic of the Harry Potter saga.
+          Choose your side of good. Meet your favorite heroes Hermione Granger, Albus Dumbledore and
+          many others.
         </p>
       </div>
 
@@ -25,8 +25,8 @@
         <img class="dark block w-80" src="../assets/images/dark.webp" alt="" />
         <h3 class="side-title-2 my-3 text-2xl text-[#fff4e2]">The Dark Side</h3>
         <p class="side-desc-2 max-w-full text-[#fff4e2]">
-          Collect cards from the side of light and rediscover the magic of the Harry saga Potter.
-          Choose your side of good. Meet your favorite Death Eaters Bellatrix Lestrange, Lucius
+          Collect cards from the side of darkness and rediscover the dark arts of the Harry saga
+          Potter. Choose your side. Meet your favorite Death Eaters Bellatrix Lestrange, Lucius
           Malfoy and many others.
         </p>
       </div>

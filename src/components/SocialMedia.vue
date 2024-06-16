@@ -6,7 +6,7 @@
         <a
           href="https://www.facebook.com/harrypotter"
           title="Harry Potter Facebook"
-          class="social-icon duration-300 hover:scale-110"
+          class="social-icon"
           aria-label="Facebook"
         >
           <img src="../assets/icons/icons8-facebook.svg" alt="Facebook" />
@@ -15,7 +15,7 @@
         <a
           href="https://www.instagram.com/harrypotter"
           title="Harry Potter Instagram"
-          class="social-icon duration-300 hover:scale-110"
+          class="social-icon"
           aria-label="Instagram"
         >
           <img src="../assets/icons/instagram.svg" alt="" />
@@ -67,6 +67,7 @@
       href="https://www.wizardingworld.com/"
       title="Join the Harry Potter Fan Club"
       name="join-the-harry-potter-fan-club"
+      aria-label="Join the Harry Potter Fan Club"
       class="group z-20 flex items-center gap-3 uppercase text-[#b69451] duration-300 hover:translate-x-4 hover:text-white"
       >join the harry potter fan club
       <img
