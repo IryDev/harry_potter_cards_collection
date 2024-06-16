@@ -1,7 +1,7 @@
 <script setup>
 import { animateWithGsap } from '@/utils/animation'
 import { onMounted } from 'vue'
-import { RouterLink } from 'vue-router';
+import { RouterLink } from 'vue-router'
 
 onMounted(() => {
   animateWithGsap('.logo', {
@@ -18,7 +18,7 @@ onMounted(() => {
     muted
     loop
     class="absolute left-0 right-0 top-0 -z-10 h-screen w-full object-cover object-left"
-    src="../assets/videos/background-video3.mp4"
+    src="../assets/videos/background-video.mp4"
   ></video>
 
   <main>
