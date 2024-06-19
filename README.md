@@ -1,4 +1,4 @@
-<img width="1419" alt="Harry Potter Hogwarts Cards Collection" src="https://github.com/IryDev/IryDev/assets/86270481/030a6685-8c8c-48fa-8da4-2cf0ab7c019d">
+<img width="1410" alt="Harry Potter Hogwarts Cards Collection" src="https://github.com/IryDev/harry_potter_cards_collection/assets/86270481/16ceee4a-323d-4012-874d-31c33695e549">
 
 <div align="center">
   <div>
